@@ -12,8 +12,12 @@ h1{
 	color:yellow;
 	background-color:blue;
 }
-div p{
+div p:first-child{
 	color:blue;
+}
+div p:last-child{
+	background-color: gray;
+	color:white;
 }
 body{
 	background-color:#d2d2d2;
